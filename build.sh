@@ -3,7 +3,7 @@ set -x
 cd vyos-build
 docker run \
 	--rm \
-	-it \
+	-t \
 	--privileged \
 	-v $(pwd):/vyos \
 	-w /vyos \
