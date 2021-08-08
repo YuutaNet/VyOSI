@@ -16,9 +16,9 @@ jobs:
 
       - name: Cache Build
         uses: actions/cache@v2
-        key: 1.3
         with:
           path: ./vyos-build/build/cache/
+          key: 1.3
 
       - name: Build Images
         run: sudo ./build.sh
