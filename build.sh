@@ -1,4 +1,5 @@
 #!/bin/sh
+set -x
 cd vyos-build
 docker run \
 	--rm \
